@@ -145,4 +145,10 @@ int main() {
 			cin >> pilihan;
 			switch (pilihan)
 			{
+			case 1:
+				addNode();
+				cout << "Data Berhasil Ditambahkan" << endl;
+				system("pause");
+				system("cls");
+				break;
 			
